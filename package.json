@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "yana",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "@types/node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.7"
+  }
+}
