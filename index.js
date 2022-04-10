@@ -40,13 +40,13 @@ async function getRandomActivityAsToDoItem() {
 
 function delayedOnce(callback) {
   setTimeout(() => {
-    callback && callback();
+    callback();
   }, 1000);
 }
 
 function infiniteTimer(callback) {
   setTimeout(() => {
-    callback && callback();
+    callback();
 
     // Schedule the next call in 5 seconds
     setTimeout(() => {
