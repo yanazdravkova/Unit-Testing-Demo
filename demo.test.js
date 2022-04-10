@@ -12,7 +12,7 @@ describe("divide", () => {
     expect(result).toBe(expectedResult);
   });
 
-  it("should throw and error when dividing by 0", () => {
+  it("should throw an error when dividing by 0", () => {
     expect(() => demo.divide(15, 0)).toThrow("Division by 0 is not allowed!");
   });
 });
